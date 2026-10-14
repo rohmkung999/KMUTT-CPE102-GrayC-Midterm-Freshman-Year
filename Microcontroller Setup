@@ -1,0 +1,15 @@
+---
+Microcontroller Setup
+Open firmware/esp32_robot_controller.ino in Arduino IDE.
+Install board: esp32 by Espressif Systems.
+Install library: ESP32Servo.
+Connect ESP32 via USB and upload at 115200 baud.
+
+### File 2: `requirements.txt`
+
+```text
+opencv-python>=4.8.0.76
+opencv-contrib-python>=4.8.0.76
+numpy>=1.24.3
+pyserial>=3.5
+mediapipe>=0.10.0
